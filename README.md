@@ -37,8 +37,6 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/t6WnpKOh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src='https://github.com/ZhenmingAo/InstagramClone/blob/master/InstagramPart2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 GIF created with [ScreenToGif](https://www.screentogif.com/).
 
 ## Notes
