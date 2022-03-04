@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/usericon2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ivImage"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="12dp"
+        android:layout_toRightOf="@+id/ivAvatar"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="SampleUser" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/ivAvatar"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivImage"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        tools:text="Just some comments" />
+
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="#7E7E7E"
+        android:textSize="14sp"
+        tools:text="Timestamp" />
+
+    <ImageView
+        android:id="@+id/ivTimestampIcon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_above="@+id/ivImage"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="12dp"
+        android:layout_toLeftOf="@id/tvTimestamp"
+        app:srcCompat="@drawable/clock01" />
+</RelativeLayout>

@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/drawable/btn_selector.xml" value="0.1875" />
+        <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/drawable/compose_icon_selector.xml" value="0.1875" />
+        <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/drawable/nav_item_color_selected.xml" value="0.1875" />
+        <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/drawable/profile_icon_selector.xml" value="0.1875" />
         <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/layout/activity_login.xml" value="0.35688405797101447" />
         <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/layout/activity_main.xml" value="0.2879999900124293" />
+        <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/layout/fragment_compose.xml" value="0.182370820668693" />
+        <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/layout/fragment_posts.xml" value="0.2879999900124293" />
+        <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/layout/item_post.xml" value="0.4363636212309535" />
+        <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.375" />
         <entry key="..\:/Users/zhenm/AndroidStudioProjects/InstagramClone/app/src/main/res/xml/fileprovider.xml" value="0.24635416666666668" />
       </map>
     </option>

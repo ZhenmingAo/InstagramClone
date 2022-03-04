@@ -11,7 +11,7 @@
     <ImageView
         android:id="@+id/ivInstagram"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="79dp"
         app:srcCompat="@drawable/nav_logo_whiteout" />
 
     <EditText
@@ -36,13 +36,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="LOG IN" />
+        android:text="LOG IN"
+        android:textColor="@color/white"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
 
     <Button
         android:id="@+id/btnSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="SIGN UP" />
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
 
 </LinearLayout>
